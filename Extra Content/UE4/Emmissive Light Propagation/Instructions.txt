@@ -1,0 +1,15 @@
+Enable Light Propagation valuming from the engine:
+C:\Program Files\Unreal Engine\4.2x\Engine\Config\
+
+r.LightPropagationVolume=1
+
+
+Copy and replace DefaultEngine to *Your Project*/Config/
+
+Objects needed
+ Directional Light
+	Enable: Dynamic Indirect Lighting
+	Set Intensity: 0.01 Lux ( minimal for it to work)
+ 
+Created Material:
+	Enable: Emissive( Dynamic Area Light)
