@@ -78,7 +78,7 @@ def OpenLocatorMode():
     
     cmds.menuItem( label='Camera Position',c = "PrintMenu ()" )
     cmds.menuItem( label='Hover Component',c = "PrintMenu ()" )
-    cmds.menuItem( label='Muzzle',c = "PrintMenu ()" )
+    cmds.menuItem( label='Muzzle Position',c = "PrintMenu ()" )
     cmds.menuItem( label='Left Hand',c = "PrintMenu ()" )
     cmds.menuItem( label='Right Hand',c = "PrintMenu ()" )
     cmds.menuItem( label='Attachment Location',c = "PrintMenu ()" )
@@ -114,10 +114,7 @@ def LocatorAtEdge(option):
                 
                 #absolute means it will be in worldspace
                 # Strips Selection option of any Spaces
-            locator= cmds.spaceLocator(absolute = True, name = "SOCKET_" + option.replace(" ", "") + "_0", position = (x,y,z))
-            cmds.xform(locator, centerPivots=True )
-
-                    
+            cmds.spaceLocator(absolute = True, name = "SOCKET_" + option.replace(" ", "") + "_0", position = (x,y,z))        
     cmds.select(sel, replace = True)       
 
 def SetObjectToOrigin(CheckFreeze):
