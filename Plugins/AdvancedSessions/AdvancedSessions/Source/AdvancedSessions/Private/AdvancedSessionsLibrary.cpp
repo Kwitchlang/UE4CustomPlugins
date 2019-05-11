@@ -12,6 +12,45 @@ bool UAdvancedSessionsLibrary::IsValidSession(const FBlueprintSessionResult & Se
 	return SessionResult.OnlineResult.IsValid();
 }
 
+void UAdvancedSessionsLibrary::GetSessionID_AsString(const FBlueprintSessionResult & SessionResult, FString& SessionID)
+{
+	const TSharedPtr<class FOnlineSessionInfo> SessionInfo = SessionResult.OnlineResult.Session.SessionInfo;
+	if (SessionInfo.IsValid() && SessionInfo->IsValid() && SessionInfo->GetSessionId().IsValid())
+	{
+		SessionID = SessionInfo->GetSessionId().ToString();
+		return;
+	}
+
+	// Zero the string out if we didn't have a valid one, in case this is called in c++
+	SessionID.Empty();
+}
+
+void UAdvancedSessionsLibrary::GetCurrentSessionID_AsString(FString& SessionID)
+{
+	IOnlineSessionPtr SessionInterface = Online::GetSessionInterface();
+
+	if (!SessionInterface.IsValid()) 
+	{
+		UE_LOG(AdvancedSessionsLog, Warning, TEXT("GetCurrentSessionID_AsString couldn't get the session interface!"));
+		SessionID.Empty();
+		return;
+	}
+
+	const FNamedOnlineSession* Session = SessionInterface->GetNamedSession(NAME_GameSession);
+	if (Session != nullptr) 
+	{
+		const TSharedPtr<class FOnlineSessionInfo> SessionInfo = Session->SessionInfo;
+		if (SessionInfo.IsValid() && SessionInfo->IsValid() && SessionInfo->GetSessionId().IsValid()) 
+		{
+			SessionID = SessionInfo->GetSessionId().ToString();
+			return;
+		}
+	}
+
+	// Zero the string out if we didn't have a valid one, in case this is called in c++
+	SessionID.Empty();
+}
+
 void UAdvancedSessionsLibrary::GetCurrentUniqueBuildID(int32 &UniqueBuildId)
 {
 	UniqueBuildId = GetBuildUniqueId();
@@ -97,7 +136,7 @@ void UAdvancedSessionsLibrary::GetSessionState(EBPOnlineSessionState &SessionSta
 		return;
 	}
 
-	SessionState = ((EBPOnlineSessionState)SessionInterface->GetSessionState(GameSessionName));
+	SessionState = ((EBPOnlineSessionState)SessionInterface->GetSessionState(NAME_GameSession));
 }
 
 void UAdvancedSessionsLibrary::GetSessionSettings(int32 &NumConnections, int32 &NumPrivateConnections, bool &bIsLAN, bool &bIsDedicated, bool &bAllowInvites, bool &bAllowJoinInProgress, bool &bIsAnticheatEnabled, int32 &BuildUniqueID, TArray<FSessionPropertyKeyPair> &ExtraSettings, EBlueprintResultSwitch &Result)
@@ -111,7 +150,7 @@ void UAdvancedSessionsLibrary::GetSessionSettings(int32 &NumConnections, int32 &
 		return;
 	}
 
-	FOnlineSessionSettings* settings = SessionInterface->GetSessionSettings(GameSessionName);
+	FOnlineSessionSettings* settings = SessionInterface->GetSessionSettings(NAME_GameSession);
 	if (!settings)
 	{
 		UE_LOG(AdvancedSessionsLog, Warning, TEXT("GetSessionSettings couldn't get the session settings!"));
@@ -151,7 +190,7 @@ void UAdvancedSessionsLibrary::IsPlayerInSession(const FBPUniqueNetId &PlayerToC
 		return;
 	}
 
-	bIsInSession = SessionInterface->IsPlayerInSession(GameSessionName, *PlayerToCheck.GetUniqueNetId());
+	bIsInSession = SessionInterface->IsPlayerInSession(NAME_GameSession, *PlayerToCheck.GetUniqueNetId());
 }
 
 FSessionsSearchSetting UAdvancedSessionsLibrary::MakeLiteralSessionSearchProperty(FSessionPropertyKeyPair SessionSearchProperty, EOnlineComparisonOpRedux ComparisonOp)

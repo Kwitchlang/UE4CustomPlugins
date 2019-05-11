@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -45,8 +45,8 @@ void EmptyLinkFunctionForGeneratedCodeSteamRequestGroupOfficersCallbackProxy() {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList = { UE4CodeGen_Private::EPropertyClass::Array, "OfficerList", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(_Script_AdvancedSteamSessions_eventBlueprintGroupOfficerDetailsDelegate_Parms, OfficerList), METADATA_PARAMS(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "OfficerList", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FBPSteamGroupOfficer, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList = { "OfficerList", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_AdvancedSteamSessions_eventBlueprintGroupOfficerDetailsDelegate_Parms, OfficerList), METADATA_PARAMS(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_Inner = { "OfficerList", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FBPSteamGroupOfficer, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::NewProp_OfficerList_Inner,
@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeSteamRequestGroupOfficersCallbackProxy() {
 		{ "ModuleRelativePath", "Classes/SteamRequestGroupOfficersCallbackProxy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_AdvancedSteamSessions, "BlueprintGroupOfficerDetailsDelegate__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_AdvancedSteamSessions_eventBlueprintGroupOfficerDetailsDelegate_Parms), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_AdvancedSteamSessions, nullptr, "BlueprintGroupOfficerDetailsDelegate__DelegateSignature", sizeof(_Script_AdvancedSteamSessions_eventBlueprintGroupOfficerDetailsDelegate_Parms), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -71,10 +71,14 @@ class UScriptStruct* FBPSteamGroupOfficer::StaticStruct()
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern ADVANCEDSTEAMSESSIONS_API uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FBPSteamGroupOfficer, Z_Construct_UPackage__Script_AdvancedSteamSessions(), TEXT("BPSteamGroupOfficer"), sizeof(FBPSteamGroupOfficer), Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_CRC());
+		extern ADVANCEDSTEAMSESSIONS_API uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FBPSteamGroupOfficer, Z_Construct_UPackage__Script_AdvancedSteamSessions(), TEXT("BPSteamGroupOfficer"), sizeof(FBPSteamGroupOfficer), Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Hash());
 	}
 	return Singleton;
+}
+template<> ADVANCEDSTEAMSESSIONS_API UScriptStruct* StaticStruct<FBPSteamGroupOfficer>()
+{
+	return FBPSteamGroupOfficer::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FBPSteamGroupOfficer(FBPSteamGroupOfficer::StaticStruct, TEXT("/Script/AdvancedSteamSessions"), TEXT("BPSteamGroupOfficer"), false, nullptr, nullptr);
 static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamGroupOfficer
@@ -124,14 +128,14 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 	{
 		((FBPSteamGroupOfficer*)Obj)->bIsOwner = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsOwner", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FBPSteamGroupOfficer), &Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner = { "bIsOwner", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FBPSteamGroupOfficer), &Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID_MetaData[] = {
 		{ "Category", "Online|SteamAPI|SteamGroups" },
 		{ "ModuleRelativePath", "Classes/SteamRequestGroupOfficersCallbackProxy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID = { UE4CodeGen_Private::EPropertyClass::Struct, "OfficerUniqueNetID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(FBPSteamGroupOfficer, OfficerUniqueNetID), Z_Construct_UScriptStruct_FBPUniqueNetId, METADATA_PARAMS(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID = { "OfficerUniqueNetID", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FBPSteamGroupOfficer, OfficerUniqueNetID), Z_Construct_UScriptStruct_FBPUniqueNetId, METADATA_PARAMS(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_bIsOwner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::NewProp_OfficerUniqueNetID,
@@ -141,19 +145,20 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		nullptr,
 		&NewStructOps,
 		"BPSteamGroupOfficer",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FBPSteamGroupOfficer),
 		alignof(FBPSteamGroupOfficer),
-		Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FBPSteamGroupOfficer()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_AdvancedSteamSessions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("BPSteamGroupOfficer"), sizeof(FBPSteamGroupOfficer), Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("BPSteamGroupOfficer"), sizeof(FBPSteamGroupOfficer), Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -163,7 +168,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_CRC() { return 2940229860U; }
+	uint32 Get_Z_Construct_UScriptStruct_FBPSteamGroupOfficer_Hash() { return 664146155U; }
 	void USteamRequestGroupOfficersCallbackProxy::StaticRegisterNativesUSteamRequestGroupOfficersCallbackProxy()
 	{
 		UClass* Class = USteamRequestGroupOfficersCallbackProxy::StaticClass();
@@ -189,9 +194,9 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, ReturnValue), Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_GroupUniqueNetID = { UE4CodeGen_Private::EPropertyClass::Struct, "GroupUniqueNetID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, GroupUniqueNetID), Z_Construct_UScriptStruct_FBPUniqueNetId, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_WorldContextObject = { UE4CodeGen_Private::EPropertyClass::Object, "WorldContextObject", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, ReturnValue), Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_GroupUniqueNetID = { "GroupUniqueNetID", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, GroupUniqueNetID), Z_Construct_UScriptStruct_FBPUniqueNetId, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::NewProp_GroupUniqueNetID,
@@ -206,7 +211,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy, "GetSteamGroupOfficerList", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms), Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy, nullptr, "GetSteamGroupOfficerList", sizeof(SteamRequestGroupOfficersCallbackProxy_eventGetSteamGroupOfficerList_Parms), Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -244,7 +249,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSteamSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList, "GetSteamGroupOfficerList" }, // 2605876714
+		{ &Z_Construct_UFunction_USteamRequestGroupOfficersCallbackProxy_GetSteamGroupOfficerList, "GetSteamGroupOfficerList" }, // 1091473765
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::Class_MetaDataParams[] = {
@@ -258,14 +263,14 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		{ "ToolTip", "Called when there is an unsuccessful results return" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnFailure", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(USteamRequestGroupOfficersCallbackProxy, OnFailure), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure_MetaData, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure = { "OnFailure", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USteamRequestGroupOfficersCallbackProxy, OnFailure), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure_MetaData, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess_MetaData[] = {
 		{ "ModuleRelativePath", "Classes/SteamRequestGroupOfficersCallbackProxy.h" },
 		{ "ToolTip", "Called when there is a successful results return" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnSuccess", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(USteamRequestGroupOfficersCallbackProxy, OnSuccess), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess_MetaData, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess = { "OnSuccess", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USteamRequestGroupOfficersCallbackProxy, OnSuccess), Z_Construct_UDelegateFunction_AdvancedSteamSessions_BlueprintGroupOfficerDetailsDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess_MetaData, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnFailure,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::NewProp_OnSuccess,
@@ -275,13 +280,17 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::ClassParams = {
 		&USteamRequestGroupOfficersCallbackProxy::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008800A0u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::PropPointers),
+		0,
+		0x008800A0u,
 		METADATA_PARAMS(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy()
@@ -293,7 +302,11 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamG
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USteamRequestGroupOfficersCallbackProxy, 573314265);
+	IMPLEMENT_CLASS(USteamRequestGroupOfficersCallbackProxy, 2169254516);
+	template<> ADVANCEDSTEAMSESSIONS_API UClass* StaticClass<USteamRequestGroupOfficersCallbackProxy>()
+	{
+		return USteamRequestGroupOfficersCallbackProxy::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USteamRequestGroupOfficersCallbackProxy(Z_Construct_UClass_USteamRequestGroupOfficersCallbackProxy, &USteamRequestGroupOfficersCallbackProxy::StaticClass, TEXT("/Script/AdvancedSteamSessions"), TEXT("USteamRequestGroupOfficersCallbackProxy"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USteamRequestGroupOfficersCallbackProxy);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

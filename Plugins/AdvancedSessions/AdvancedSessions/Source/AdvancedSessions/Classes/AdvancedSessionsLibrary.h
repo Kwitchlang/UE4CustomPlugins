@@ -60,6 +60,14 @@ public:
 		UFUNCTION(BlueprintPure, Category = "Online|AdvancedSessions|SessionInfo")
 		static bool IsValidSession(const FBlueprintSessionResult & SessionResult);
 
+		// Get a string copy of a session ID
+		UFUNCTION(BlueprintPure, Category = "Online|AdvancedSessions|SessionInfo")
+		static void GetSessionID_AsString(const FBlueprintSessionResult & SessionResult, FString& SessionID);
+
+		// Get a string copy of the current session ID
+		UFUNCTION(BlueprintPure, Category = "Online|AdvancedSessions|SessionInfo")
+		static void GetCurrentSessionID_AsString(FString& SessionID);
+
 		// Get the Unique Current Build ID
 		UFUNCTION(BlueprintPure, Category = "Online|AdvancedSessions|SessionInfo")
 		static void GetCurrentUniqueBuildID(int32 &UniqueBuildId);
