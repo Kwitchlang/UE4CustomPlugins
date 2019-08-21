@@ -26,7 +26,7 @@
 /wd4838
 /we4668
 /I .
-/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
+/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -236,24 +236,23 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions"
-/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
+/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Inc\AdvancedSessions"
+/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
 /D_HAS_EXCEPTIONS=0
 /D_HAS_EXCEPTIONS=0
-/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
-/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Fo"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
+/FI"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win64\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
+/Yu"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win64\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
+/Fp"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win64\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h.pch"
+"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
+/FI"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Fo"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
 /TP
 /GR-
 /W4
