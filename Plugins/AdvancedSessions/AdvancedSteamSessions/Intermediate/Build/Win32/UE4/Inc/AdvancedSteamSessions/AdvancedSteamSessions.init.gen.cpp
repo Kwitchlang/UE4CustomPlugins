@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamSessions_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x4E653A10,
+				0x231810C3,
 				0x1954D3E2,
 				METADATA_PARAMS(nullptr, 0)
 			};

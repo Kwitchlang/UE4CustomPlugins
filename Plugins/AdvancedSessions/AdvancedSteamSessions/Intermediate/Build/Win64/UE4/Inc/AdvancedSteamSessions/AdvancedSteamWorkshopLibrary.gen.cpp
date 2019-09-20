@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamWorkshopLibrary() {}
 		return FBPWorkshopFileType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FBPWorkshopFileType(FBPWorkshopFileType_StaticEnum, TEXT("/Script/AdvancedSteamSessions"), TEXT("FBPWorkshopFileType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSteamSessions_FBPWorkshopFileType_Hash() { return 4143482014U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSteamSessions_FBPWorkshopFileType_Hash() { return 2168246424U; }
 	UEnum* Z_Construct_UEnum_AdvancedSteamSessions_FBPWorkshopFileType()
 	{
 #if WITH_HOT_RELOAD
@@ -70,7 +70,25 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamWorkshopLibrary() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "Comment", "// Check these to future proof\n" },
+				{ "k_EWorkshopFileTypeArt.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeArt" },
+				{ "k_EWorkshopFileTypeCollection.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeCollection" },
+				{ "k_EWorkshopFileTypeCommunity.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeCommunity" },
+				{ "k_EWorkshopFileTypeConcept.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeConcept" },
+				{ "k_EWorkshopFileTypeControllerBinding.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeControllerBinding" },
+				{ "k_EWorkshopFileTypeGame.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeGame" },
+				{ "k_EWorkshopFileTypeIntegratedGuide.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeIntegratedGuide" },
+				{ "k_EWorkshopFileTypeMax.Comment", "// Update k_EWorkshopFileTypeMax if you add values.\n" },
+				{ "k_EWorkshopFileTypeMax.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeMax" },
 				{ "k_EWorkshopFileTypeMax.ToolTip", "Update k_EWorkshopFileTypeMax if you add values." },
+				{ "k_EWorkshopFileTypeMerch.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeMerch" },
+				{ "k_EWorkshopFileTypeMicrotransaction.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeMicrotransaction" },
+				{ "k_EWorkshopFileTypeScreenshot.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeScreenshot" },
+				{ "k_EWorkshopFileTypeSoftware.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeSoftware" },
+				{ "k_EWorkshopFileTypeSteamVideo.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeSteamVideo" },
+				{ "k_EWorkshopFileTypeSteamworksAccessInvite.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeSteamworksAccessInvite" },
+				{ "k_EWorkshopFileTypeVideo.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeVideo" },
+				{ "k_EWorkshopFileTypeWebGuide.Name", "FBPWorkshopFileType::k_EWorkshopFileTypeWebGuide" },
 				{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 				{ "ToolTip", "Check these to future proof" },
 			};
@@ -105,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamWorkshopLibrary() {}
 		return FBPSteamResult_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FBPSteamResult(FBPSteamResult_StaticEnum, TEXT("/Script/AdvancedSteamSessions"), TEXT("FBPSteamResult"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSteamSessions_FBPSteamResult_Hash() { return 3974320819U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSteamSessions_FBPSteamResult_Hash() { return 3438445025U; }
 	UEnum* Z_Construct_UEnum_AdvancedSteamSessions_FBPSteamResult()
 	{
 #if WITH_HOT_RELOAD
@@ -211,82 +229,252 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSteamWorkshopLibrary() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "Comment", "// General result codes - Copying steams version over\n// Check these to future proof\n" },
+				{ "k_EResultAccessDenied.Comment", "// name is not unique\n" },
+				{ "k_EResultAccessDenied.Name", "FBPSteamResult::k_EResultAccessDenied" },
 				{ "k_EResultAccessDenied.ToolTip", "name is not unique" },
+				{ "k_EResultAccountAssociatedToMultiplePartners.Comment", "// activation code for two-factor didn't match\n" },
+				{ "k_EResultAccountAssociatedToMultiplePartners.Name", "FBPSteamResult::k_EResultAccountAssociatedToMultiplePartners" },
 				{ "k_EResultAccountAssociatedToMultiplePartners.ToolTip", "activation code for two-factor didn't match" },
+				{ "k_EResultAccountDisabled.Comment", "// nothing matching the request found\n" },
+				{ "k_EResultAccountDisabled.Name", "FBPSteamResult::k_EResultAccountDisabled" },
 				{ "k_EResultAccountDisabled.ToolTip", "nothing matching the request found" },
+				{ "k_EResultAccountLockedDown.Name", "FBPSteamResult::k_EResultAccountLockedDown" },
+				{ "k_EResultAccountLoginDeniedNeedTwoFactor.Comment", "// Temporary rate limit exceeded, try again later, different from k_EResultLimitExceeded which may be permanent\n" },
+				{ "k_EResultAccountLoginDeniedNeedTwoFactor.Name", "FBPSteamResult::k_EResultAccountLoginDeniedNeedTwoFactor" },
 				{ "k_EResultAccountLoginDeniedNeedTwoFactor.ToolTip", "Temporary rate limit exceeded, try again later, different from k_EResultLimitExceeded which may be permanent" },
+				{ "k_EResultAccountLoginDeniedThrottle.Comment", "// The thing we're trying to access has been deleted\n" },
+				{ "k_EResultAccountLoginDeniedThrottle.Name", "FBPSteamResult::k_EResultAccountLoginDeniedThrottle" },
 				{ "k_EResultAccountLoginDeniedThrottle.ToolTip", "The thing we're trying to access has been deleted" },
+				{ "k_EResultAccountLogonDenied.Comment", "// new value is the same as the old one ( secret question and answer )\n" },
+				{ "k_EResultAccountLogonDenied.Name", "FBPSteamResult::k_EResultAccountLogonDenied" },
 				{ "k_EResultAccountLogonDenied.ToolTip", "new value is the same as the old one ( secret question and answer )" },
+				{ "k_EResultAccountLogonDeniedNoMail.Comment", "// account login denied due to auth code invalid\n" },
+				{ "k_EResultAccountLogonDeniedNoMail.Name", "FBPSteamResult::k_EResultAccountLogonDeniedNoMail" },
 				{ "k_EResultAccountLogonDeniedNoMail.ToolTip", "account login denied due to auth code invalid" },
+				{ "k_EResultAccountLogonDeniedVerifiedEmailRequired.Name", "FBPSteamResult::k_EResultAccountLogonDeniedVerifiedEmailRequired" },
+				{ "k_EResultAccountNotFeatured.Comment", "// this service is not accepting content changes right now\n" },
+				{ "k_EResultAccountNotFeatured.Name", "FBPSteamResult::k_EResultAccountNotFeatured" },
 				{ "k_EResultAccountNotFeatured.ToolTip", "this service is not accepting content changes right now" },
+				{ "k_EResultAccountNotFound.Comment", "// VAC2 banned\n" },
+				{ "k_EResultAccountNotFound.Name", "FBPSteamResult::k_EResultAccountNotFound" },
 				{ "k_EResultAccountNotFound.ToolTip", "VAC2 banned" },
+				{ "k_EResultAdministratorOK.Comment", "// account doesn't have value, so this feature isn't available\n" },
+				{ "k_EResultAdministratorOK.Name", "FBPSteamResult::k_EResultAdministratorOK" },
 				{ "k_EResultAdministratorOK.ToolTip", "account doesn't have value, so this feature isn't available" },
+				{ "k_EResultAlreadyLoggedInElsewhere.Comment", "// You are already logged in elsewhere, this cached credential login has failed.\n" },
+				{ "k_EResultAlreadyLoggedInElsewhere.Name", "FBPSteamResult::k_EResultAlreadyLoggedInElsewhere" },
 				{ "k_EResultAlreadyLoggedInElsewhere.ToolTip", "You are already logged in elsewhere, this cached credential login has failed." },
+				{ "k_EResultAlreadyOwned.Comment", "// The request is a duplicate and the action has already occurred in the past, ignored this time\n" },
+				{ "k_EResultAlreadyOwned.Name", "FBPSteamResult::k_EResultAlreadyOwned" },
 				{ "k_EResultAlreadyOwned.ToolTip", "The request is a duplicate and the action has already occurred in the past, ignored this time" },
+				{ "k_EResultAlreadyRedeemed.Comment", "// License/Guest pass the user is trying to access is expired\n" },
+				{ "k_EResultAlreadyRedeemed.Name", "FBPSteamResult::k_EResultAlreadyRedeemed" },
 				{ "k_EResultAlreadyRedeemed.ToolTip", "License/Guest pass the user is trying to access is expired" },
+				{ "k_EResultBadResponse.Name", "FBPSteamResult::k_EResultBadResponse" },
+				{ "k_EResultBanned.Comment", "// operation timed out\n" },
+				{ "k_EResultBanned.Name", "FBPSteamResult::k_EResultBanned" },
 				{ "k_EResultBanned.ToolTip", "operation timed out" },
+				{ "k_EResultBlocked.Comment", "// failed to find the shopping cart requested\n" },
+				{ "k_EResultBlocked.Name", "FBPSteamResult::k_EResultBlocked" },
 				{ "k_EResultBlocked.ToolTip", "failed to find the shopping cart requested" },
+				{ "k_EResultBusy.Comment", "// file was not found\n" },
+				{ "k_EResultBusy.Name", "FBPSteamResult::k_EResultBusy" },
 				{ "k_EResultBusy.ToolTip", "file was not found" },
+				{ "k_EResultCancelled.Comment", "// Long running operation (content download) suspended/paused\n" },
+				{ "k_EResultCancelled.Name", "FBPSteamResult::k_EResultCancelled" },
 				{ "k_EResultCancelled.ToolTip", "Long running operation (content download) suspended/paused" },
+				{ "k_EResultCannotUseOldPassword.Comment", "// account login denied due to 2nd factor authentication failure\n" },
+				{ "k_EResultCannotUseOldPassword.Name", "FBPSteamResult::k_EResultCannotUseOldPassword" },
 				{ "k_EResultCannotUseOldPassword.ToolTip", "account login denied due to 2nd factor authentication failure" },
+				{ "k_EResultConnectFailed.Name", "FBPSteamResult::k_EResultConnectFailed" },
+				{ "k_EResultContentVersion.Comment", "// allowed to take this action, but only because requester is admin\n" },
+				{ "k_EResultContentVersion.Name", "FBPSteamResult::k_EResultContentVersion" },
 				{ "k_EResultContentVersion.ToolTip", "allowed to take this action, but only because requester is admin" },
+				{ "k_EResultDataCorruption.Comment", "// Operation canceled (typically by user: content download)\n" },
+				{ "k_EResultDataCorruption.Name", "FBPSteamResult::k_EResultDataCorruption" },
 				{ "k_EResultDataCorruption.ToolTip", "Operation canceled (typically by user: content download)" },
+				{ "k_EResultDisabled.Comment", "// something happened that we didn't expect to ever happen\n" },
+				{ "k_EResultDisabled.Name", "FBPSteamResult::k_EResultDisabled" },
 				{ "k_EResultDisabled.ToolTip", "something happened that we didn't expect to ever happen" },
+				{ "k_EResultDiskFull.Comment", "// Operation canceled because data is ill formed or unrecoverable\n" },
+				{ "k_EResultDiskFull.Name", "FBPSteamResult::k_EResultDiskFull" },
 				{ "k_EResultDiskFull.ToolTip", "Operation canceled because data is ill formed or unrecoverable" },
+				{ "k_EResultDuplicateName.Comment", "// email is invalid\n" },
+				{ "k_EResultDuplicateName.Name", "FBPSteamResult::k_EResultDuplicateName" },
 				{ "k_EResultDuplicateName.ToolTip", "email is invalid" },
+				{ "k_EResultDuplicateRequest.Comment", "// Guest pass has already been redeemed by account, cannot be acked again\n" },
+				{ "k_EResultDuplicateRequest.Name", "FBPSteamResult::k_EResultDuplicateRequest" },
 				{ "k_EResultDuplicateRequest.ToolTip", "Guest pass has already been redeemed by account, cannot be acked again" },
+				{ "k_EResultEncryptionFailure.Comment", "// Request is pending (may be in process, or waiting on third party)\n" },
+				{ "k_EResultEncryptionFailure.Name", "FBPSteamResult::k_EResultEncryptionFailure" },
 				{ "k_EResultEncryptionFailure.ToolTip", "Request is pending (may be in process, or waiting on third party)" },
+				{ "k_EResultExpired.Comment", "// Access has been revoked (used for revoked guest passes)\n" },
+				{ "k_EResultExpired.Name", "FBPSteamResult::k_EResultExpired" },
 				{ "k_EResultExpired.ToolTip", "Access has been revoked (used for revoked guest passes)" },
+				{ "k_EResultExpiredLoginAuthCode.Comment", "// Facebook query returned an error\n" },
+				{ "k_EResultExpiredLoginAuthCode.Name", "FBPSteamResult::k_EResultExpiredLoginAuthCode" },
 				{ "k_EResultExpiredLoginAuthCode.ToolTip", "Facebook query returned an error" },
+				{ "k_EResultExternalAccountAlreadyLinked.Comment", "// PSN ticket was invalid\n" },
+				{ "k_EResultExternalAccountAlreadyLinked.Name", "FBPSteamResult::k_EResultExternalAccountAlreadyLinked" },
 				{ "k_EResultExternalAccountAlreadyLinked.ToolTip", "PSN ticket was invalid" },
+				{ "k_EResultExternalAccountUnlinked.Comment", "// Password could not be verified as it's unset server side\n" },
+				{ "k_EResultExternalAccountUnlinked.Name", "FBPSteamResult::k_EResultExternalAccountUnlinked" },
 				{ "k_EResultExternalAccountUnlinked.ToolTip", "Password could not be verified as it's unset server side" },
+				{ "k_EResultFacebookQueryError.Comment", "// \n// \n// operation failed due to parental control restrictions for current user\n" },
+				{ "k_EResultFacebookQueryError.Name", "FBPSteamResult::k_EResultFacebookQueryError" },
 				{ "k_EResultFacebookQueryError.ToolTip", "operation failed due to parental control restrictions for current user" },
+				{ "k_EResultFail.Comment", "// success\n" },
+				{ "k_EResultFail.Name", "FBPSteamResult::k_EResultFail" },
 				{ "k_EResultFail.ToolTip", "success" },
+				{ "k_EResultFileNotFound.Comment", "// a parameter is incorrect\n" },
+				{ "k_EResultFileNotFound.Name", "FBPSteamResult::k_EResultFileNotFound" },
 				{ "k_EResultFileNotFound.ToolTip", "a parameter is incorrect" },
+				{ "k_EResultHandshakeFailed.Name", "FBPSteamResult::k_EResultHandshakeFailed" },
+				{ "k_EResultHardwareNotCapableOfIPT.Comment", "// account login denied due to 2nd factor auth failure - and no mail has been sent\n" },
+				{ "k_EResultHardwareNotCapableOfIPT.Name", "FBPSteamResult::k_EResultHardwareNotCapableOfIPT" },
 				{ "k_EResultHardwareNotCapableOfIPT.ToolTip", "account login denied due to 2nd factor auth failure - and no mail has been sent" },
+				{ "k_EResultIgnored.Comment", "// a user didn't allow it\n" },
+				{ "k_EResultIgnored.Name", "FBPSteamResult::k_EResultIgnored" },
 				{ "k_EResultIgnored.ToolTip", "a user didn't allow it" },
+				{ "k_EResultIllegalPassword.Comment", "// The sync cannot resume due to a conflict between the local and remote files\n" },
+				{ "k_EResultIllegalPassword.Name", "FBPSteamResult::k_EResultIllegalPassword" },
 				{ "k_EResultIllegalPassword.ToolTip", "The sync cannot resume due to a conflict between the local and remote files" },
+				{ "k_EResultInsufficientPrivilege.Comment", "// Encryption or Decryption failed\n" },
+				{ "k_EResultInsufficientPrivilege.Name", "FBPSteamResult::k_EResultInsufficientPrivilege" },
 				{ "k_EResultInsufficientPrivilege.ToolTip", "Encryption or Decryption failed" },
+				{ "k_EResultInvalidCEGSubmission.Comment", "// The requested service has been configured to be unavailable\n" },
+				{ "k_EResultInvalidCEGSubmission.Name", "FBPSteamResult::k_EResultInvalidCEGSubmission" },
 				{ "k_EResultInvalidCEGSubmission.ToolTip", "The requested service has been configured to be unavailable" },
+				{ "k_EResultInvalidEmail.Comment", "// name is invalid\n" },
+				{ "k_EResultInvalidEmail.Name", "FBPSteamResult::k_EResultInvalidEmail" },
 				{ "k_EResultInvalidEmail.ToolTip", "name is invalid" },
+				{ "k_EResultInvalidLoginAuthCode.Comment", "// The requested new password is not legal\n" },
+				{ "k_EResultInvalidLoginAuthCode.Name", "FBPSteamResult::k_EResultInvalidLoginAuthCode" },
 				{ "k_EResultInvalidLoginAuthCode.ToolTip", "The requested new password is not legal" },
+				{ "k_EResultInvalidName.Comment", "// called object was in an invalid state\n" },
+				{ "k_EResultInvalidName.Name", "FBPSteamResult::k_EResultInvalidName" },
 				{ "k_EResultInvalidName.ToolTip", "called object was in an invalid state" },
+				{ "k_EResultInvalidParam.Comment", "// protocol version is incorrect\n" },
+				{ "k_EResultInvalidParam.Name", "FBPSteamResult::k_EResultInvalidParam" },
 				{ "k_EResultInvalidParam.ToolTip", "protocol version is incorrect" },
+				{ "k_EResultInvalidPassword.Comment", "// no/failed network connection\n//\x09k_EResultNoConnectionRetry = 4,\x09\x09\x09\x09// OBSOLETE - removed\n" },
+				{ "k_EResultInvalidPassword.Name", "FBPSteamResult::k_EResultInvalidPassword" },
 				{ "k_EResultInvalidPassword.ToolTip", "no/failed network connection\n      k_EResultNoConnectionRetry = 4,                          OBSOLETE - removed" },
+				{ "k_EResultInvalidProtocolVer.Comment", "// same user logged in elsewhere\n" },
+				{ "k_EResultInvalidProtocolVer.Name", "FBPSteamResult::k_EResultInvalidProtocolVer" },
 				{ "k_EResultInvalidProtocolVer.ToolTip", "same user logged in elsewhere" },
+				{ "k_EResultInvalidState.Comment", "// called method busy - action not taken\n" },
+				{ "k_EResultInvalidState.Name", "FBPSteamResult::k_EResultInvalidState" },
 				{ "k_EResultInvalidState.ToolTip", "called method busy - action not taken" },
+				{ "k_EResultInvalidSteamID.Comment", "// account not found\n" },
+				{ "k_EResultInvalidSteamID.Name", "FBPSteamResult::k_EResultInvalidSteamID" },
 				{ "k_EResultInvalidSteamID.ToolTip", "account not found" },
+				{ "k_EResultIOFailure.Name", "FBPSteamResult::k_EResultIOFailure" },
+				{ "k_EResultIPLoginRestrictionFailed.Comment", "// account login denied due to auth code expired\n" },
+				{ "k_EResultIPLoginRestrictionFailed.Name", "FBPSteamResult::k_EResultIPLoginRestrictionFailed" },
 				{ "k_EResultIPLoginRestrictionFailed.ToolTip", "account login denied due to auth code expired" },
+				{ "k_EResultIPNotFound.Comment", "// All the games in this guest pass redemption request are already owned by the user\n" },
+				{ "k_EResultIPNotFound.Name", "FBPSteamResult::k_EResultIPNotFound" },
 				{ "k_EResultIPNotFound.ToolTip", "All the games in this guest pass redemption request are already owned by the user" },
+				{ "k_EResultIPTInitError.Comment", "// \n" },
+				{ "k_EResultIPTInitError.Name", "FBPSteamResult::k_EResultIPTInitError" },
+				{ "k_EResultItemDeleted.Comment", "// Need two-factor code to login\n" },
+				{ "k_EResultItemDeleted.Name", "FBPSteamResult::k_EResultItemDeleted" },
 				{ "k_EResultItemDeleted.ToolTip", "Need two-factor code to login" },
+				{ "k_EResultLimitExceeded.Comment", "// Insufficient privilege\n" },
+				{ "k_EResultLimitExceeded.Name", "FBPSteamResult::k_EResultLimitExceeded" },
 				{ "k_EResultLimitExceeded.ToolTip", "Insufficient privilege" },
+				{ "k_EResultLockingFailed.Comment", "// failed to write change to the data store\n" },
+				{ "k_EResultLockingFailed.Name", "FBPSteamResult::k_EResultLockingFailed" },
 				{ "k_EResultLockingFailed.ToolTip", "failed to write change to the data store" },
+				{ "k_EResultLoggedInElsewhere.Comment", "// password/ticket is invalid\n" },
+				{ "k_EResultLoggedInElsewhere.Name", "FBPSteamResult::k_EResultLoggedInElsewhere" },
 				{ "k_EResultLoggedInElsewhere.ToolTip", "password/ticket is invalid" },
+				{ "k_EResultLogonSessionReplaced.Comment", "// failed to acquire access lock for this operation\n" },
+				{ "k_EResultLogonSessionReplaced.Name", "FBPSteamResult::k_EResultLogonSessionReplaced" },
 				{ "k_EResultLogonSessionReplaced.ToolTip", "failed to acquire access lock for this operation" },
+				{ "k_EResultNoConnection.Comment", "// generic failure \n" },
+				{ "k_EResultNoConnection.Name", "FBPSteamResult::k_EResultNoConnection" },
 				{ "k_EResultNoConnection.ToolTip", "generic failure" },
+				{ "k_EResultNoMatch.Comment", "// target is ignoring sender\n" },
+				{ "k_EResultNoMatch.Name", "FBPSteamResult::k_EResultNoMatch" },
 				{ "k_EResultNoMatch.ToolTip", "target is ignoring sender" },
+				{ "k_EResultNoMatchingURL.Name", "FBPSteamResult::k_EResultNoMatchingURL" },
+				{ "k_EResultNotLoggedOn.Comment", "// The requested service is currently unavailable\n" },
+				{ "k_EResultNotLoggedOn.Name", "FBPSteamResult::k_EResultNotLoggedOn" },
 				{ "k_EResultNotLoggedOn.ToolTip", "The requested service is currently unavailable" },
+				{ "k_EResultNotModified.Comment", "// account has been associated with multiple partners\n" },
+				{ "k_EResultNotModified.Name", "FBPSteamResult::k_EResultNotModified" },
 				{ "k_EResultNotModified.ToolTip", "account has been associated with multiple partners" },
+				{ "k_EResultOK.Name", "FBPSteamResult::k_EResultOK" },
+				{ "k_EResultParentalControlRestricted.Comment", "// \n// \n" },
+				{ "k_EResultParentalControlRestricted.Name", "FBPSteamResult::k_EResultParentalControlRestricted" },
+				{ "k_EResultPasswordRequiredToKickSession.Comment", "// The current CM can't service the user making a request, user should try another.\n" },
+				{ "k_EResultPasswordRequiredToKickSession.Name", "FBPSteamResult::k_EResultPasswordRequiredToKickSession" },
 				{ "k_EResultPasswordRequiredToKickSession.ToolTip", "The current CM can't service the user making a request, user should try another." },
+				{ "k_EResultPasswordUnset.Comment", "// an remote call or IPC call failed\n" },
+				{ "k_EResultPasswordUnset.Name", "FBPSteamResult::k_EResultPasswordUnset" },
 				{ "k_EResultPasswordUnset.ToolTip", "an remote call or IPC call failed" },
+				{ "k_EResultPending.Comment", "// The user is not logged on\n" },
+				{ "k_EResultPending.Name", "FBPSteamResult::k_EResultPending" },
 				{ "k_EResultPending.ToolTip", "The user is not logged on" },
+				{ "k_EResultPersistFailed.Comment", "// IP address not found\n" },
+				{ "k_EResultPersistFailed.Name", "FBPSteamResult::k_EResultPersistFailed" },
 				{ "k_EResultPersistFailed.ToolTip", "IP address not found" },
+				{ "k_EResultPSNTicketInvalid.Comment", "// External account (PSN, Facebook...) is not linked to a Steam account\n" },
+				{ "k_EResultPSNTicketInvalid.Name", "FBPSteamResult::k_EResultPSNTicketInvalid" },
 				{ "k_EResultPSNTicketInvalid.ToolTip", "External account (PSN, Facebook...) is not linked to a Steam account" },
+				{ "k_EResultRateLimitExceeded.Comment", "// The action could not be complete because it is region restricted\n" },
+				{ "k_EResultRateLimitExceeded.Name", "FBPSteamResult::k_EResultRateLimitExceeded" },
 				{ "k_EResultRateLimitExceeded.ToolTip", "The action could not be complete because it is region restricted" },
+				{ "k_EResultRegionLocked.Comment", "// The device being used is not allowed to perform this action\n" },
+				{ "k_EResultRegionLocked.Name", "FBPSteamResult::k_EResultRegionLocked" },
 				{ "k_EResultRegionLocked.ToolTip", "The device being used is not allowed to perform this action" },
+				{ "k_EResultRemoteCallFailed.Comment", "// Operation canceled - not enough disk space.\n" },
+				{ "k_EResultRemoteCallFailed.Name", "FBPSteamResult::k_EResultRemoteCallFailed" },
 				{ "k_EResultRemoteCallFailed.ToolTip", "Operation canceled - not enough disk space." },
+				{ "k_EResultRemoteDisconnect.Name", "FBPSteamResult::k_EResultRemoteDisconnect" },
+				{ "k_EResultRemoteFileConflict.Comment", "// External account (PSN, Facebook...) is already linked to some other account, must explicitly request to replace/delete the link first\n" },
+				{ "k_EResultRemoteFileConflict.Name", "FBPSteamResult::k_EResultRemoteFileConflict" },
 				{ "k_EResultRemoteFileConflict.ToolTip", "External account (PSN, Facebook...) is already linked to some other account, must explicitly request to replace/delete the link first" },
+				{ "k_EResultRequirePasswordReEntry.Comment", "// parse failure, missing field, etc.\n" },
+				{ "k_EResultRequirePasswordReEntry.Name", "FBPSteamResult::k_EResultRequirePasswordReEntry" },
 				{ "k_EResultRequirePasswordReEntry.ToolTip", "parse failure, missing field, etc." },
+				{ "k_EResultRestrictedDevice.Comment", "// The set of files submitted to the CEG server are not valid !\n" },
+				{ "k_EResultRestrictedDevice.Name", "FBPSteamResult::k_EResultRestrictedDevice" },
 				{ "k_EResultRestrictedDevice.ToolTip", "The set of files submitted to the CEG server are not valid !" },
+				{ "k_EResultRevoked.Comment", "// Too much of a good thing\n" },
+				{ "k_EResultRevoked.Name", "FBPSteamResult::k_EResultRevoked" },
 				{ "k_EResultRevoked.ToolTip", "Too much of a good thing" },
+				{ "k_EResultSameAsPreviousValue.Comment", "// The requested new password is not legal\n" },
+				{ "k_EResultSameAsPreviousValue.Name", "FBPSteamResult::k_EResultSameAsPreviousValue" },
 				{ "k_EResultSameAsPreviousValue.ToolTip", "The requested new password is not legal" },
+				{ "k_EResultServiceReadOnly.Name", "FBPSteamResult::k_EResultServiceReadOnly" },
+				{ "k_EResultServiceUnavailable.Comment", "// steamID is invalid\n" },
+				{ "k_EResultServiceUnavailable.Name", "FBPSteamResult::k_EResultServiceUnavailable" },
 				{ "k_EResultServiceUnavailable.ToolTip", "steamID is invalid" },
+				{ "k_EResultShoppingCartNotFound.Name", "FBPSteamResult::k_EResultShoppingCartNotFound" },
+				{ "k_EResultSuspended.Comment", "// You are already logged in elsewhere, you must wait\n" },
+				{ "k_EResultSuspended.Name", "FBPSteamResult::k_EResultSuspended" },
 				{ "k_EResultSuspended.ToolTip", "You are already logged in elsewhere, you must wait" },
+				{ "k_EResultTimeout.Comment", "// access is denied\n" },
+				{ "k_EResultTimeout.Name", "FBPSteamResult::k_EResultTimeout" },
 				{ "k_EResultTimeout.ToolTip", "access is denied" },
+				{ "k_EResultTryAnotherCM.Comment", "// A Version mismatch in content transmitted within the Steam protocol.\n" },
+				{ "k_EResultTryAnotherCM.Name", "FBPSteamResult::k_EResultTryAnotherCM" },
 				{ "k_EResultTryAnotherCM.ToolTip", "A Version mismatch in content transmitted within the Steam protocol." },
+				{ "k_EResultTwoFactorActivationCodeMismatch.Comment", "// two factor code mismatch\n" },
+				{ "k_EResultTwoFactorActivationCodeMismatch.Name", "FBPSteamResult::k_EResultTwoFactorActivationCodeMismatch" },
 				{ "k_EResultTwoFactorActivationCodeMismatch.ToolTip", "two factor code mismatch" },
+				{ "k_EResultTwoFactorCodeMismatch.Comment", "// login attempt failed, try to throttle response to possible attacker\n" },
+				{ "k_EResultTwoFactorCodeMismatch.Name", "FBPSteamResult::k_EResultTwoFactorCodeMismatch" },
 				{ "k_EResultTwoFactorCodeMismatch.ToolTip", "login attempt failed, try to throttle response to possible attacker" },
+				{ "k_EResultUnexpectedError.Comment", "// the value entered is outside the acceptable range\n" },
+				{ "k_EResultUnexpectedError.Name", "FBPSteamResult::k_EResultUnexpectedError" },
 				{ "k_EResultUnexpectedError.ToolTip", "the value entered is outside the acceptable range" },
+				{ "k_EResultValueOutOfRange.Comment", "// The user cannot complete the action until they re-enter their password\n" },
+				{ "k_EResultValueOutOfRange.Name", "FBPSteamResult::k_EResultValueOutOfRange" },
 				{ "k_EResultValueOutOfRange.ToolTip", "The user cannot complete the action until they re-enter their password" },
 				{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 				{ "ToolTip", "General result codes - Copying steams version over\nCheck these to future proof" },
@@ -403,6 +591,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "// WorkshopItemDetails Struct\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "WorkshopItemDetails Struct" },
 	};
@@ -414,6 +603,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_CreatorSteamID_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Steam ID of the user who created this content.\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Steam ID of the user who created this content." },
 	};
@@ -422,6 +612,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_bTagsTruncated_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// whether the list of tags was too long to be returned in the provided buffer\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "whether the list of tags was too long to be returned in the provided buffer" },
 	};
@@ -434,6 +625,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_bAcceptedForUse_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// developer has specifically flagged this item as accepted in the Workshop\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "developer has specifically flagged this item as accepted in the Workshop" },
 	};
@@ -446,6 +638,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_bBanned_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// whether the file was banned\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "whether the file was banned" },
 	};
@@ -458,6 +651,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_CalculatedScore_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Calculated score\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Calculated score" },
 	};
@@ -473,6 +667,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_VotesUp_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Votes will be unlikely to go above signed limited\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Votes will be unlikely to go above signed limited" },
 	};
@@ -481,6 +676,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_ItemUrl_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "//Url for a video of website\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Url for a video of website" },
 	};
@@ -489,6 +685,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_Description_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Description of item\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Description of item" },
 	};
@@ -497,6 +694,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_Title_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Title of item\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Title of item" },
 	};
@@ -512,6 +710,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_CreatorAppID_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// These two are listed as baked to an int, but is stored as a uint, think its safe to keep int\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "These two are listed as baked to an int, but is stored as a uint, think its safe to keep int" },
 	};
@@ -520,6 +719,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_FileType_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Type of file\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Type of file" },
 	};
@@ -529,6 +729,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics::NewProp_ResultOfRequest_MetaData[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Result of obtaining the details\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Result of obtaining the details" },
 	};
@@ -581,7 +782,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Hash() { return 2901125075U; }
+	uint32 Get_Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Hash() { return 4084310145U; }
 class UScriptStruct* FBPSteamWorkshopID::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -615,6 +816,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPSteamWorkshopID_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "// Using a custom struct because uint32 isn't blueprint supported and I don't want to cast to int32\n// due to the size of the workshop it could end up overflowing?\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Using a custom struct because uint32 isn't blueprint supported and I don't want to cast to int32\ndue to the size of the workshop it could end up overflowing?" },
 	};
@@ -651,7 +853,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FBPSteamWorkshopID_Hash() { return 3273006950U; }
+	uint32 Get_Z_Construct_UScriptStruct_FBPSteamWorkshopID_Hash() { return 3113739431U; }
 	void UAdvancedSteamWorkshopLibrary::StaticRegisterNativesUAdvancedSteamWorkshopLibrary()
 	{
 		UClass* Class = UAdvancedSteamWorkshopLibrary::StaticClass();
@@ -684,7 +886,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSteamWorkshopLibrary, nullptr, "GetNumSubscribedWorkshopItems", sizeof(AdvancedSteamWorkshopLibrary_eventGetNumSubscribedWorkshopItems_Parms), Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSteamWorkshopLibrary, nullptr, "GetNumSubscribedWorkshopItems", nullptr, nullptr, sizeof(AdvancedSteamWorkshopLibrary_eventGetNumSubscribedWorkshopItems_Parms), Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -721,11 +923,12 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSteamWorkshop" },
+		{ "Comment", "// Returns IDs for subscribed workshop items, TArray length dictates how many\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSteamWorkshopLibrary.h" },
 		{ "ToolTip", "Returns IDs for subscribed workshop items, TArray length dictates how many" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSteamWorkshopLibrary, nullptr, "GetSubscribedWorkshopItems", sizeof(AdvancedSteamWorkshopLibrary_eventGetSubscribedWorkshopItems_Parms), Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSteamWorkshopLibrary, nullptr, "GetSubscribedWorkshopItems", nullptr, nullptr, sizeof(AdvancedSteamWorkshopLibrary_eventGetSubscribedWorkshopItems_Parms), Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -754,8 +957,8 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSteamSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAdvancedSteamWorkshopLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems, "GetNumSubscribedWorkshopItems" }, // 2565313550
-		{ &Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems, "GetSubscribedWorkshopItems" }, // 2567647410
+		{ &Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetNumSubscribedWorkshopItems, "GetNumSubscribedWorkshopItems" }, // 4170778100
+		{ &Z_Construct_UFunction_UAdvancedSteamWorkshopLibrary_GetSubscribedWorkshopItems, "GetSubscribedWorkshopItems" }, // 3634822267
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAdvancedSteamWorkshopLibrary_Statics::Class_MetaDataParams[] = {
@@ -790,7 +993,7 @@ static struct FScriptStruct_AdvancedSteamSessions_StaticRegisterNativesFBPSteamW
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAdvancedSteamWorkshopLibrary, 4161254362);
+	IMPLEMENT_CLASS(UAdvancedSteamWorkshopLibrary, 3180257525);
 	template<> ADVANCEDSTEAMSESSIONS_API UClass* StaticClass<UAdvancedSteamWorkshopLibrary>()
 	{
 		return UAdvancedSteamWorkshopLibrary::StaticClass();

@@ -141,11 +141,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Adds or modifies session settings in an existing array depending on if they exist already or not\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Adds or modifies session settings in an existing array depending on if they exist already or not" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "AddOrModifyExtraSettings", sizeof(AdvancedSessionsLibrary_eventAddOrModifyExtraSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "AddOrModifyExtraSettings", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventAddOrModifyExtraSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -204,6 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerID" },
+		{ "Comment", "/* Returns true if the values are equal (A == B) */" },
 		{ "CompactNodeTitle", "==" },
 		{ "DisplayName", "Equal Unique Net ID" },
 		{ "Keywords", "== equal" },
@@ -211,7 +213,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 		{ "ToolTip", "Returns true if the values are equal (A == B)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "EqualEqual_UNetIDUnetID", sizeof(AdvancedSessionsLibrary_eventEqualEqual_UNetIDUnetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "EqualEqual_UNetIDUnetID", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventEqualEqual_UNetIDUnetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -267,12 +269,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Find session property by Name\n" },
 		{ "ExpandEnumAsExecs", "Result" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Find session property by Name" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "FindSessionPropertyByName", sizeof(AdvancedSessionsLibrary_eventFindSessionPropertyByName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "FindSessionPropertyByName", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventFindSessionPropertyByName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -328,12 +331,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Find session property index by Name\n" },
 		{ "ExpandEnumAsExecs", "Result" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Find session property index by Name" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "FindSessionPropertyIndexByName", sizeof(AdvancedSessionsLibrary_eventFindSessionPropertyIndexByName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "FindSessionPropertyIndexByName", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventFindSessionPropertyIndexByName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -363,11 +367,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get a string copy of the current session ID\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get a string copy of the current session ID" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetCurrentSessionID_AsString", sizeof(AdvancedSessionsLibrary_eventGetCurrentSessionID_AsString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetCurrentSessionID_AsString", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetCurrentSessionID_AsString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -397,11 +402,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get the Unique Current Build ID\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the Unique Current Build ID" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetCurrentUniqueBuildID", sizeof(AdvancedSessionsLibrary_eventGetCurrentUniqueBuildID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetCurrentUniqueBuildID", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetCurrentUniqueBuildID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -438,11 +444,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get an array of the session settings from a session search result\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get an array of the session settings from a session search result" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetExtraSettings", sizeof(AdvancedSessionsLibrary_eventGetExtraSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetExtraSettings", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetExtraSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -476,11 +483,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|Misc" },
+		{ "Comment", "// Get the network player index of the given controller\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the network player index of the given controller" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetNetPlayerIndex", sizeof(AdvancedSessionsLibrary_eventGetNetPlayerIndex_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetNetPlayerIndex", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetNetPlayerIndex_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -515,13 +523,14 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::Function_MetaDataParams[] = {
 		{ "bIgnoreSelf", "true" },
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|Misc" },
+		{ "Comment", "// Get the number of network players\n" },
 		{ "DisplayName", "GetNumNetworkPlayers" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the number of network players" },
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetNumberOfNetworkPlayers", sizeof(AdvancedSessionsLibrary_eventGetNumberOfNetworkPlayers_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetNumberOfNetworkPlayers", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetNumberOfNetworkPlayers_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -555,11 +564,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerName" },
+		{ "Comment", "// Get the player name of a network player attached to the given controller\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the player name of a network player attached to the given controller" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetPlayerName", sizeof(AdvancedSessionsLibrary_eventGetPlayerName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetPlayerName", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetPlayerName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -601,11 +611,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get a string copy of a session ID\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get a string copy of a session ID" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionID_AsString", sizeof(AdvancedSessionsLibrary_eventGetSessionID_AsString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionID_AsString", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionID_AsString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -666,12 +677,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session custom information key/value as Bool\n" },
 		{ "ExpandEnumAsExecs", "SearchResult" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session custom information key/value as Bool" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyBool", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyBool_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyBool", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyBool_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -727,12 +739,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session custom information key/value as Byte (For Enums)\n" },
 		{ "ExpandEnumAsExecs", "SearchResult" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session custom information key/value as Byte (For Enums)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyByte", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyByte_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyByte", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyByte_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -788,12 +801,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session custom information key/value as Float\n" },
 		{ "ExpandEnumAsExecs", "SearchResult" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session custom information key/value as Float" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyFloat", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyFloat_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyFloat", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyFloat_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -849,12 +863,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session custom information key/value as Int\n" },
 		{ "ExpandEnumAsExecs", "SearchResult" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session custom information key/value as Int" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyInt", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyInt_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyInt", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyInt_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -896,11 +911,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session property Key Name value\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session property Key Name value" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyKey", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyKey_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyKey", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyKey_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -956,12 +972,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get session custom information key/value as String\n" },
 		{ "ExpandEnumAsExecs", "SearchResult" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get session custom information key/value as String" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyString", sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionPropertyString", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionPropertyString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1058,12 +1075,13 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get the current session settings\n" },
 		{ "ExpandEnumAsExecs", "Result" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the current session settings" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionSettings", sizeof(AdvancedSessionsLibrary_eventGetSessionSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionSettings", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionSettings_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1096,11 +1114,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get the current session state\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the current session state" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionState", sizeof(AdvancedSessionsLibrary_eventGetSessionState_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetSessionState", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetSessionState_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1134,11 +1153,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Get the Unique Build ID from a session search result\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the Unique Build ID from a session search result" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueBuildID", sizeof(AdvancedSessionsLibrary_eventGetUniqueBuildID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueBuildID", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetUniqueBuildID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1172,11 +1192,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerID" },
+		{ "Comment", "// Get the unique net id of a network player attached to the given controller\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the unique net id of a network player attached to the given controller" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueNetID", sizeof(AdvancedSessionsLibrary_eventGetUniqueNetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueNetID", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetUniqueNetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1210,11 +1231,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerID" },
+		{ "Comment", "// Get the unique net id of a network player who is assigned the the given player state\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Get the unique net id of a network player who is assigned the the given player state" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueNetIDFromPlayerState", sizeof(AdvancedSessionsLibrary_eventGetUniqueNetIDFromPlayerState_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "GetUniqueNetIDFromPlayerState", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventGetUniqueNetIDFromPlayerState_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1253,11 +1275,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|Misc" },
+		{ "Comment", "// Checks if the stated session subsystem is active\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Checks if the stated session subsystem is active" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "HasOnlineSubsystem", sizeof(AdvancedSessionsLibrary_eventHasOnlineSubsystem_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "HasOnlineSubsystem", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventHasOnlineSubsystem_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1304,11 +1327,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Check if someone is in the current session\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Check if someone is in the current session" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsPlayerInSession", sizeof(AdvancedSessionsLibrary_eventIsPlayerInSession_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsPlayerInSession", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventIsPlayerInSession_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1355,11 +1379,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo" },
+		{ "Comment", "// Check if a session result is valid or not\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Check if a session result is valid or not" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsValidSession", sizeof(AdvancedSessionsLibrary_eventIsValidSession_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsValidSession", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventIsValidSession_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1406,11 +1431,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerID" },
+		{ "Comment", "// Return True if Unique Net ID is valid\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Return True if Unique Net ID is valid" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsValidUniqueNetID", sizeof(AdvancedSessionsLibrary_eventIsValidUniqueNetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "IsValidUniqueNetID", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventIsValidUniqueNetID_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1453,11 +1479,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session custom information key/value pair from Bool\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session custom information key/value pair from Bool" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyBool", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyBool_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyBool", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyBool_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1495,11 +1522,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session custom information key/value pair from Byte (For Enums)\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session custom information key/value pair from Byte (For Enums)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyByte", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyByte_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyByte", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyByte_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1537,11 +1565,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session custom information key/value pair from Float\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session custom information key/value pair from Float" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyFloat", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyFloat_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyFloat", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyFloat_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1579,11 +1608,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session custom information key/value pair from Int\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session custom information key/value pair from Int" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyInt", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyInt_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyInt", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyInt_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1621,11 +1651,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session custom information key/value pair from String\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session custom information key/value pair from String" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyString", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionPropertyString", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionPropertyString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1666,11 +1697,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|SessionInfo|Literals" },
+		{ "Comment", "// Make a literal session search parameter\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Make a literal session search parameter" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionSearchProperty", sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionSearchProperty_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "MakeLiteralSessionSearchProperty", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventMakeLiteralSessionSearchProperty_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1704,11 +1736,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|PlayerInfo|PlayerName" },
+		{ "Comment", "// Set the player name of a network player attached to the given controller\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Set the player name of a network player attached to the given controller" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "SetPlayerName", sizeof(AdvancedSessionsLibrary_eventSetPlayerName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "SetPlayerName", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventSetPlayerName_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1750,11 +1783,12 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Online|AdvancedSessions|UniqueNetId" },
+		{ "Comment", "// Check if a UniqueNetId is a friend\n" },
 		{ "ModuleRelativePath", "Classes/AdvancedSessionsLibrary.h" },
 		{ "ToolTip", "Check if a UniqueNetId is a friend" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "UniqueNetIdToString", sizeof(AdvancedSessionsLibrary_eventUniqueNetIdToString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAdvancedSessionsLibrary, nullptr, "UniqueNetIdToString", nullptr, nullptr, sizeof(AdvancedSessionsLibrary_eventUniqueNetIdToString_Parms), Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1783,40 +1817,40 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAdvancedSessionsLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings, "AddOrModifyExtraSettings" }, // 3551327955
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID, "EqualEqual_UNetIDUnetID" }, // 4111378008
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName, "FindSessionPropertyByName" }, // 3838021375
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName, "FindSessionPropertyIndexByName" }, // 3345031319
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString, "GetCurrentSessionID_AsString" }, // 864668924
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID, "GetCurrentUniqueBuildID" }, // 1616784198
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings, "GetExtraSettings" }, // 4184320037
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex, "GetNetPlayerIndex" }, // 2407714945
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers, "GetNumberOfNetworkPlayers" }, // 1408192179
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName, "GetPlayerName" }, // 3757011573
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString, "GetSessionID_AsString" }, // 3858510294
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool, "GetSessionPropertyBool" }, // 1663304645
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte, "GetSessionPropertyByte" }, // 403434623
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat, "GetSessionPropertyFloat" }, // 1768744669
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt, "GetSessionPropertyInt" }, // 3183000399
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey, "GetSessionPropertyKey" }, // 551926367
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString, "GetSessionPropertyString" }, // 139313496
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings, "GetSessionSettings" }, // 3305040132
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState, "GetSessionState" }, // 1162370422
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID, "GetUniqueBuildID" }, // 3442404724
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID, "GetUniqueNetID" }, // 4024140031
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState, "GetUniqueNetIDFromPlayerState" }, // 3972330067
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem, "HasOnlineSubsystem" }, // 3256887401
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession, "IsPlayerInSession" }, // 3945323527
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession, "IsValidSession" }, // 2584817394
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID, "IsValidUniqueNetID" }, // 583635499
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool, "MakeLiteralSessionPropertyBool" }, // 1175049250
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte, "MakeLiteralSessionPropertyByte" }, // 1775873669
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat, "MakeLiteralSessionPropertyFloat" }, // 1950016310
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt, "MakeLiteralSessionPropertyInt" }, // 3944723006
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString, "MakeLiteralSessionPropertyString" }, // 1864411573
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty, "MakeLiteralSessionSearchProperty" }, // 1455218848
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName, "SetPlayerName" }, // 631170258
-		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString, "UniqueNetIdToString" }, // 942363806
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_AddOrModifyExtraSettings, "AddOrModifyExtraSettings" }, // 1416681518
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_EqualEqual_UNetIDUnetID, "EqualEqual_UNetIDUnetID" }, // 2144198540
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyByName, "FindSessionPropertyByName" }, // 4254881859
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_FindSessionPropertyIndexByName, "FindSessionPropertyIndexByName" }, // 1314870134
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentSessionID_AsString, "GetCurrentSessionID_AsString" }, // 194335802
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetCurrentUniqueBuildID, "GetCurrentUniqueBuildID" }, // 2219789398
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetExtraSettings, "GetExtraSettings" }, // 2726269185
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNetPlayerIndex, "GetNetPlayerIndex" }, // 3129741605
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetNumberOfNetworkPlayers, "GetNumberOfNetworkPlayers" }, // 3301834813
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetPlayerName, "GetPlayerName" }, // 2161917113
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionID_AsString, "GetSessionID_AsString" }, // 4007695359
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyBool, "GetSessionPropertyBool" }, // 3342561688
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyByte, "GetSessionPropertyByte" }, // 3896902779
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyFloat, "GetSessionPropertyFloat" }, // 2649262883
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyInt, "GetSessionPropertyInt" }, // 1807353101
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyKey, "GetSessionPropertyKey" }, // 2533949334
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionPropertyString, "GetSessionPropertyString" }, // 2202196988
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionSettings, "GetSessionSettings" }, // 1581504673
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetSessionState, "GetSessionState" }, // 3476506013
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueBuildID, "GetUniqueBuildID" }, // 2979345397
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetID, "GetUniqueNetID" }, // 2117229111
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_GetUniqueNetIDFromPlayerState, "GetUniqueNetIDFromPlayerState" }, // 4095335264
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_HasOnlineSubsystem, "HasOnlineSubsystem" }, // 2744859453
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsPlayerInSession, "IsPlayerInSession" }, // 3581655211
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidSession, "IsValidSession" }, // 2430380454
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_IsValidUniqueNetID, "IsValidUniqueNetID" }, // 2022917295
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyBool, "MakeLiteralSessionPropertyBool" }, // 2132117226
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyByte, "MakeLiteralSessionPropertyByte" }, // 1061785239
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyFloat, "MakeLiteralSessionPropertyFloat" }, // 2049731422
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyInt, "MakeLiteralSessionPropertyInt" }, // 1746948675
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionPropertyString, "MakeLiteralSessionPropertyString" }, // 1006963339
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_MakeLiteralSessionSearchProperty, "MakeLiteralSessionSearchProperty" }, // 3088803434
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_SetPlayerName, "SetPlayerName" }, // 772675481
+		{ &Z_Construct_UFunction_UAdvancedSessionsLibrary_UniqueNetIdToString, "UniqueNetIdToString" }, // 241308170
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAdvancedSessionsLibrary_Statics::Class_MetaDataParams[] = {
@@ -1851,7 +1885,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedSessionsLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAdvancedSessionsLibrary, 585112578);
+	IMPLEMENT_CLASS(UAdvancedSessionsLibrary, 2647074497);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UAdvancedSessionsLibrary>()
 	{
 		return UAdvancedSessionsLibrary::StaticClass();

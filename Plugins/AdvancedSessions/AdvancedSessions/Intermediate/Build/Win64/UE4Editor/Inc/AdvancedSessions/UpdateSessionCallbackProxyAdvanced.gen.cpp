@@ -124,6 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 		{ "AutoCreateRefTerm", "ExtraSettings" },
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Online|AdvancedSessions" },
+		{ "Comment", "// Creates a session with the default online subsystem with advanced optional inputs, you MUST fill in all categories or it will pass in values that you didn't want as default values\n" },
 		{ "CPP_Default_bAllowInvites", "false" },
 		{ "CPP_Default_bAllowJoinInProgress", "false" },
 		{ "CPP_Default_bIsDedicatedServer", "false" },
@@ -136,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced, nullptr, "UpdateSession", sizeof(UpdateSessionCallbackProxyAdvanced_eventUpdateSession_Parms), Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced, nullptr, "UpdateSession", nullptr, nullptr, sizeof(UpdateSessionCallbackProxyAdvanced_eventUpdateSession_Parms), Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -174,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession, "UpdateSession" }, // 1202365924
+		{ &Z_Construct_UFunction_UUpdateSessionCallbackProxyAdvanced_UpdateSession, "UpdateSession" }, // 3949866268
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::Class_MetaDataParams[] = {
@@ -184,18 +185,20 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure_MetaData[] = {
+		{ "Comment", "// Called when there was an error updating the session\n" },
 		{ "ModuleRelativePath", "Classes/UpdateSessionCallbackProxyAdvanced.h" },
 		{ "ToolTip", "Called when there was an error updating the session" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure = { "OnFailure", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UUpdateSessionCallbackProxyAdvanced, OnFailure), Z_Construct_UDelegateFunction_Engine_EmptyOnlineDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure_MetaData, ARRAY_COUNT(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure = { "OnFailure", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UUpdateSessionCallbackProxyAdvanced, OnFailure), Z_Construct_UDelegateFunction_Engine_EmptyOnlineDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure_MetaData, ARRAY_COUNT(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess_MetaData[] = {
+		{ "Comment", "// Called when the session was updated successfully\n" },
 		{ "ModuleRelativePath", "Classes/UpdateSessionCallbackProxyAdvanced.h" },
 		{ "ToolTip", "Called when the session was updated successfully" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess = { "OnSuccess", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UUpdateSessionCallbackProxyAdvanced, OnSuccess), Z_Construct_UDelegateFunction_Engine_EmptyOnlineDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess_MetaData, ARRAY_COUNT(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess = { "OnSuccess", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UUpdateSessionCallbackProxyAdvanced, OnSuccess), Z_Construct_UDelegateFunction_Engine_EmptyOnlineDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess_MetaData, ARRAY_COUNT(Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnFailure,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UUpdateSessionCallbackProxyAdvanced_Statics::NewProp_OnSuccess,
@@ -227,7 +230,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUpdateSessionCallbackProxyAdvanced, 4181963857);
+	IMPLEMENT_CLASS(UUpdateSessionCallbackProxyAdvanced, 166202244);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UUpdateSessionCallbackProxyAdvanced>()
 	{
 		return UUpdateSessionCallbackProxyAdvanced::StaticClass();

@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EOnlineComparisonOpRedux_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EOnlineComparisonOpRedux(EOnlineComparisonOpRedux_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EOnlineComparisonOpRedux"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EOnlineComparisonOpRedux_Hash() { return 1489884339U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EOnlineComparisonOpRedux_Hash() { return 3296279169U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EOnlineComparisonOpRedux()
 	{
 #if WITH_HOT_RELOAD
@@ -68,7 +68,14 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "Comment", "/** The types of comparison operations for a given search query */// Used to compare session properties\n" },
+				{ "Equals.Name", "EOnlineComparisonOpRedux::Equals" },
+				{ "GreaterThan.Name", "EOnlineComparisonOpRedux::GreaterThan" },
+				{ "GreaterThanEquals.Name", "EOnlineComparisonOpRedux::GreaterThanEquals" },
+				{ "LessThan.Name", "EOnlineComparisonOpRedux::LessThan" },
+				{ "LessThanEquals.Name", "EOnlineComparisonOpRedux::LessThanEquals" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "NotEquals.Name", "EOnlineComparisonOpRedux::NotEquals" },
 				{ "ToolTip", "The types of comparison operations for a given search query // Used to compare session properties" },
 			};
 #endif
@@ -102,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBPOnlineSessionState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBPOnlineSessionState(EBPOnlineSessionState_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBPOnlineSessionState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPOnlineSessionState_Hash() { return 75244943U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPOnlineSessionState_Hash() { return 138654923U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBPOnlineSessionState()
 	{
 #if WITH_HOT_RELOAD
@@ -126,14 +133,30 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "Creating.Comment", "/** An online session is in the process of being created */" },
+				{ "Creating.Name", "EBPOnlineSessionState::Creating" },
 				{ "Creating.ToolTip", "An online session is in the process of being created" },
+				{ "Destroying.Comment", "/** The session is being destroyed */" },
+				{ "Destroying.Name", "EBPOnlineSessionState::Destroying" },
 				{ "Destroying.ToolTip", "The session is being destroyed" },
+				{ "Ended.Comment", "/** The session is closed and any stats committed */" },
+				{ "Ended.Name", "EBPOnlineSessionState::Ended" },
 				{ "Ended.ToolTip", "The session is closed and any stats committed" },
+				{ "Ending.Comment", "/** The session is still valid, but the session is no longer being played (post match lobby) */" },
+				{ "Ending.Name", "EBPOnlineSessionState::Ending" },
 				{ "Ending.ToolTip", "The session is still valid, but the session is no longer being played (post match lobby)" },
+				{ "InProgress.Comment", "/** The current session has started. Sessions with join in progress disabled are no longer joinable */" },
+				{ "InProgress.Name", "EBPOnlineSessionState::InProgress" },
 				{ "InProgress.ToolTip", "The current session has started. Sessions with join in progress disabled are no longer joinable" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "NoSession.Comment", "/** An online session has not been created yet */" },
+				{ "NoSession.Name", "EBPOnlineSessionState::NoSession" },
 				{ "NoSession.ToolTip", "An online session has not been created yet" },
+				{ "Pending.Comment", "/** Session has been created but the session hasn't started (pre match lobby) */" },
+				{ "Pending.Name", "EBPOnlineSessionState::Pending" },
 				{ "Pending.ToolTip", "Session has been created but the session hasn't started (pre match lobby)" },
+				{ "Starting.Comment", "/** Session has been asked to start (may take time due to communication with backend) */" },
+				{ "Starting.Name", "EBPOnlineSessionState::Starting" },
 				{ "Starting.ToolTip", "Session has been asked to start (may take time due to communication with backend)" },
 			};
 #endif
@@ -167,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBPOnlinePresenceState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBPOnlinePresenceState(EBPOnlinePresenceState_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBPOnlinePresenceState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPOnlinePresenceState_Hash() { return 453576349U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPOnlinePresenceState_Hash() { return 3395636530U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBPOnlinePresenceState()
 	{
 #if WITH_HOT_RELOAD
@@ -188,8 +211,15 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Away.Name", "EBPOnlinePresenceState::Away" },
 				{ "BlueprintType", "true" },
+				{ "Chat.Name", "EBPOnlinePresenceState::Chat" },
+				{ "Comment", "// Wanted this to be switchable in the editor\n" },
+				{ "DoNotDisturb.Name", "EBPOnlinePresenceState::DoNotDisturb" },
+				{ "ExtendedAway.Name", "EBPOnlinePresenceState::ExtendedAway" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "Offline.Name", "EBPOnlinePresenceState::Offline" },
+				{ "Online.Name", "EBPOnlinePresenceState::Online" },
 				{ "ToolTip", "Wanted this to be switchable in the editor" },
 			};
 #endif
@@ -223,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBPServerPresenceSearchType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBPServerPresenceSearchType(EBPServerPresenceSearchType_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBPServerPresenceSearchType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPServerPresenceSearchType_Hash() { return 3150736271U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPServerPresenceSearchType_Hash() { return 2096700849U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBPServerPresenceSearchType()
 	{
 #if WITH_HOT_RELOAD
@@ -241,7 +271,11 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "AllServers.Name", "EBPServerPresenceSearchType::AllServers" },
 				{ "BlueprintType", "true" },
+				{ "ClientServersOnly.Name", "EBPServerPresenceSearchType::ClientServersOnly" },
+				{ "Comment", "// This is to define server type searches\n" },
+				{ "DedicatedServersOnly.Name", "EBPServerPresenceSearchType::DedicatedServersOnly" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
 				{ "ToolTip", "This is to define server type searches" },
 			};
@@ -276,7 +310,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBlueprintAsyncResultSwitch_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBlueprintAsyncResultSwitch(EBlueprintAsyncResultSwitch_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBlueprintAsyncResultSwitch"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBlueprintAsyncResultSwitch_Hash() { return 1205809718U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBlueprintAsyncResultSwitch_Hash() { return 2822047694U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBlueprintAsyncResultSwitch()
 	{
 #if WITH_HOT_RELOAD
@@ -294,9 +328,16 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "AsyncLoading.Comment", "// Still loading\n" },
+				{ "AsyncLoading.Name", "EBlueprintAsyncResultSwitch::AsyncLoading" },
 				{ "AsyncLoading.ToolTip", "Still loading" },
+				{ "Comment", "// This makes a lot of the blueprint functions cleaner\n" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "OnFailure.Comment", "// On Failure\n" },
+				{ "OnFailure.Name", "EBlueprintAsyncResultSwitch::OnFailure" },
 				{ "OnFailure.ToolTip", "On Failure" },
+				{ "OnSuccess.Comment", "// On Success\n" },
+				{ "OnSuccess.Name", "EBlueprintAsyncResultSwitch::OnSuccess" },
 				{ "OnSuccess.ToolTip", "On Success" },
 				{ "ToolTip", "This makes a lot of the blueprint functions cleaner" },
 			};
@@ -331,7 +372,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBlueprintResultSwitch_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBlueprintResultSwitch(EBlueprintResultSwitch_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBlueprintResultSwitch"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBlueprintResultSwitch_Hash() { return 2641929623U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBlueprintResultSwitch_Hash() { return 442449462U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBlueprintResultSwitch()
 	{
 #if WITH_HOT_RELOAD
@@ -348,8 +389,13 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Comment", "// This makes a lot of the blueprint functions cleaner\n" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "OnFailure.Comment", "// On Failure\n" },
+				{ "OnFailure.Name", "EBlueprintResultSwitch::OnFailure" },
 				{ "OnFailure.ToolTip", "On Failure" },
+				{ "OnSuccess.Comment", "// On Success\n" },
+				{ "OnSuccess.Name", "EBlueprintResultSwitch::OnSuccess" },
 				{ "OnSuccess.ToolTip", "On Success" },
 				{ "ToolTip", "This makes a lot of the blueprint functions cleaner" },
 			};
@@ -384,7 +430,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return ESessionSettingSearchResult_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESessionSettingSearchResult(ESessionSettingSearchResult_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("ESessionSettingSearchResult"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_ESessionSettingSearchResult_Hash() { return 2763199994U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_ESessionSettingSearchResult_Hash() { return 1125511614U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_ESessionSettingSearchResult()
 	{
 #if WITH_HOT_RELOAD
@@ -402,9 +448,15 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Found.Comment", "// Found the setting\n" },
+				{ "Found.Name", "ESessionSettingSearchResult::Found" },
 				{ "Found.ToolTip", "Found the setting" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "NotFound.Comment", "// Did not find the setting\n" },
+				{ "NotFound.Name", "ESessionSettingSearchResult::NotFound" },
 				{ "NotFound.ToolTip", "Did not find the setting" },
+				{ "WrongType.Comment", "// Was not the correct type\n" },
+				{ "WrongType.Name", "ESessionSettingSearchResult::WrongType" },
 				{ "WrongType.ToolTip", "Was not the correct type" },
 			};
 #endif
@@ -438,7 +490,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBPLoginStatus_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBPLoginStatus(EBPLoginStatus_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBPLoginStatus"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPLoginStatus_Hash() { return 1086512884U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPLoginStatus_Hash() { return 1638345864U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBPLoginStatus()
 	{
 #if WITH_HOT_RELOAD
@@ -457,9 +509,15 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "LoggedIn.Comment", "/** Player has been validated by the platform specific authentication service */" },
+				{ "LoggedIn.Name", "EBPLoginStatus::LoggedIn" },
 				{ "LoggedIn.ToolTip", "Player has been validated by the platform specific authentication service" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
+				{ "NotLoggedIn.Comment", "/** Player has not logged in or chosen a local profile */" },
+				{ "NotLoggedIn.Name", "EBPLoginStatus::NotLoggedIn" },
 				{ "NotLoggedIn.ToolTip", "Player has not logged in or chosen a local profile" },
+				{ "UsingLocalProfile.Comment", "/** Player is using a local profile but is not logged in */" },
+				{ "UsingLocalProfile.Name", "EBPLoginStatus::UsingLocalProfile" },
 				{ "UsingLocalProfile.ToolTip", "Player is using a local profile but is not logged in" },
 			};
 #endif
@@ -493,7 +551,7 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 		return EBPUserPrivileges_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBPUserPrivileges(EBPUserPrivileges_StaticEnum, TEXT("/Script/AdvancedSessions"), TEXT("EBPUserPrivileges"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPUserPrivileges_Hash() { return 1637045954U; }
+	uint32 Get_Z_Construct_UEnum_AdvancedSessions_EBPUserPrivileges_Hash() { return 3181785837U; }
 	UEnum* Z_Construct_UEnum_AdvancedSessions_EBPUserPrivileges()
 	{
 #if WITH_HOT_RELOAD
@@ -513,9 +571,17 @@ void EmptyLinkFunctionForGeneratedCodeBlueprintDataDefinitions() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "CanCommunicateOnline.Comment", "/** Whether the user can use voice and text chat */" },
+				{ "CanCommunicateOnline.Name", "EBPUserPrivileges::CanCommunicateOnline" },
 				{ "CanCommunicateOnline.ToolTip", "Whether the user can use voice and text chat" },
+				{ "CanPlay.Comment", "/** Whether the user can play at all, online or offline - may be age restricted */" },
+				{ "CanPlay.Name", "EBPUserPrivileges::CanPlay" },
 				{ "CanPlay.ToolTip", "Whether the user can play at all, online or offline - may be age restricted" },
+				{ "CanPlayOnline.Comment", "/** Whether the user can play in online modes */" },
+				{ "CanPlayOnline.Name", "EBPUserPrivileges::CanPlayOnline" },
 				{ "CanPlayOnline.ToolTip", "Whether the user can play in online modes" },
+				{ "CanUseUserGeneratedContent.Comment", "/** Whether the user can use content generated by other users */" },
+				{ "CanUseUserGeneratedContent.Name", "EBPUserPrivileges::CanUseUserGeneratedContent" },
 				{ "CanUseUserGeneratedContent.ToolTip", "Whether the user can use content generated by other users" },
 				{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
 			};
@@ -569,6 +635,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionsSearc
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSessionsSearchSetting_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "// Sent to the FindSessionsAdvanced to filter the end results\n" },
 		{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
 		{ "ToolTip", "Sent to the FindSessionsAdvanced to filter the end results" },
 	};
@@ -605,7 +672,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionsSearc
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSessionsSearchSetting_Hash() { return 3211167586U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSessionsSearchSetting_Hash() { return 4110896179U; }
 class UScriptStruct* FSessionPropertyKeyPair::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -639,6 +706,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionProper
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSessionPropertyKeyPair_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "// Used to store session properties before converting to FVariantData\n" },
 		{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
 		{ "ToolTip", "Used to store session properties before converting to FVariantData" },
 	};
@@ -675,7 +743,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionProper
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSessionPropertyKeyPair_Hash() { return 2300824614U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSessionPropertyKeyPair_Hash() { return 2953382406U; }
 class UScriptStruct* FBPFriendInfo::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -1237,6 +1305,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUniqueNetId
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBPUniqueNetId_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+		{ "Comment", "// Boy oh boy is this a dirty hack, but I can't figure out a good way to do it otherwise at the moment\n// The UniqueNetId is an abstract class so I can't exactly re-initialize it to make a shared pointer on some functions\n// So I made the blueprintable UniqueNetID into a dual variable struct with access functions and I am converting the const var for the pointer\n// I really need to re-think this later\n" },
 		{ "ModuleRelativePath", "Classes/BlueprintDataDefinitions.h" },
 		{ "ToolTip", "Boy oh boy is this a dirty hack, but I can't figure out a good way to do it otherwise at the moment\nThe UniqueNetId is an abstract class so I can't exactly re-initialize it to make a shared pointer on some functions\nSo I made the blueprintable UniqueNetID into a dual variable struct with access functions and I am converting the const var for the pointer\nI really need to re-think this later" },
 	};
@@ -1273,7 +1342,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUniqueNetId
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FBPUniqueNetId_Hash() { return 2843066435U; }
+	uint32 Get_Z_Construct_UScriptStruct_FBPUniqueNetId_Hash() { return 2670475078U; }
 class UScriptStruct* FBPUserOnlineAccount::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
