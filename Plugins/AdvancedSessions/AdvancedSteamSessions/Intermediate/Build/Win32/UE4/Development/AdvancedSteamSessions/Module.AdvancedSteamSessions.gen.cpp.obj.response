@@ -27,7 +27,7 @@
 /wd4838
 /we4668
 /I .
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win32\UE4\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -237,34 +237,34 @@
 /I ..\Intermediate\Build\Win32\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSteamSessions"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source"
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSteamSessions
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSessions"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I "S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win32\UE4\Inc\AdvancedSessions
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes
+/I D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions
 /I ThirdParty\Steamworks\Steamv139\sdk\public
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win32\UE4\Inc\OnlineSubsystemSteam
 /I ..\Plugins\Online\OnlineSubsystemSteam
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
 /D_HAS_EXCEPTIONS=0
 /D_HAS_EXCEPTIONS=0
-/FI"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
-/Yu"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
-/Fp"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h.pch"
-"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp"
-/FI"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Fo"S:\Sasha Page\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
+/FI"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Intermediate\Build\Win32\UE4CustomPlugins\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp"
+/FI"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Fo"D:\Kwitchlang\Documents\Github\UE4CustomPlugins\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win32\UE4\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
 /TP
 /GR-
 /W4
