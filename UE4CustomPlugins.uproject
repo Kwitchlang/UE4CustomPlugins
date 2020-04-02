@@ -45,10 +45,6 @@
 		{
 			"Name": "SunPosition",
 			"Enabled": true
-		},
-		{
-			"Name": "EditorScriptingUtilities",
-			"Enabled": true
 		}
 	]
 }
